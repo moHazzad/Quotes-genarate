@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(./image/librari.jpg) no-repeat center center/cover;
+}
+
+
+
+.container{
+    /* width: 70%;
+    height: 450px;
+     */
+}
+.header{
+    font-size: 1.2rem;
+    color: rgb(242, 239, 235);
+    
+}
+.header h1{
+    margin: 10px auto;
+    
+    width: 70%;
+    border-radius: 10px;
+    background-color: rgb(16, 2, 32);
+
+
+    
+}
+.main-area{
+
+    margin: auto;
+    width: 70%;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0,0,10px;
+
+}
+.text-area{
+    padding: 20px;
+}
+.text-area span{
+
+}
+.person{
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+.button-area{}
+.btn{
+    color: azure;
+    background-color: blue;
+}
